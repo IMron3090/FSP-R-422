@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson_13.css">
+    <title>Lesson 13</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+         <label for="">Введите ваше имя</label>
+         <input type="text" name="username" id="username"></input> 
+</div>
+<div>
+    <label for="">Введите ваш пароль</label>
+    <input type="password" name="password" id="password"></input>  
+</div>
+<div>
+    <label for="">Введите ваш вес</label>
+    <input type="range" name="weight" id="weight" min="1" max="200" step="1"></input> 
+</div>
+<div>
+    <label for="">Введите ваш возраст</label>
+    <input type="number" name="age" id="age"></input> 
+</div>
+<div>
+    <p>Выберите ваши увлечения</p>
+    <input id="football" name="football" type="radio" value="football">
+    <label for="football">Футбол</label>
+    <input id="games" name="games" type="radio" value="games">
+    <label for="games">Игры</label>
+    <input id="books" name="books" type="radio" value="books">
+    <label for="books">Книги</label>
+</div>
+
+<div>
+<label for="lunch">Что на обед?</label>
+<select id="lunch" name="lunch">
+<option value="pasta">Pasta</option>
+<option value="dumplings">Dumplings</option>
+<option value="plov">Plov</option>
+<option value="chicken">Chicken</option>
+</select>
+</div>
+
+
+<div>
+    <label for="blog">Новый пост?</label>
+    <textarea name="blog" id="blog" cols="30" rows="10"></textarea>
+</div>
+<input type="Submit" value="Send">
+
+</body>
+</html>
